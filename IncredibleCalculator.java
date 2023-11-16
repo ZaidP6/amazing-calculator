@@ -20,18 +20,23 @@ public class Calculadora {
 
         switch (op) {
             case "+":
+                // operación sumar 2 números y guarda el resultado en variable resultado
                 System.out.println("Resultado: " + (n1 + n2));
                 break;
             case "-":
+                // operación restar 2 números y guarda el resultado en variable resultado
                 System.out.println("Resultado: " + (n1 - n2));
                 break;
             case "*":
+                // operación producto de 2 números y guarda el resultado en variable resultado
                 System.out.println("Resultado: " + (n1 * n2));
                 break;
             case "/":
+                // operación división 2 números y guarda el resultado en variable resultado
                 System.out.println("Resultado: " + (n1 / n2));
                 break;
             default:
+                // default por si no se pone ninguno de los casos anteriores
                 System.err.println("Error en el operador introducido");
 
         }
