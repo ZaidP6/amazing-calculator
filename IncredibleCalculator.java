@@ -32,7 +32,7 @@ public class Calculadora {
                 System.out.println("Resultado: " + (n1 * n2));
                 break;
             case "/":
-
+                // operación división 2 números y guarda el resultado en variable resultado
                 System.out.println("Resultado: " + (n1 / n2));
                 break;
             default:
